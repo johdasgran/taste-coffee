@@ -1,0 +1,48 @@
+[{
+    "id": 1,
+    "name": "Sandwich",
+    "description": "Bread with meat and vegetables",
+    "imagen": "https://johdasgran.github.io/cafe_street-landing/assets/images/products/sandwich.png",
+    "rating": 4.8,
+    "price": 12
+},
+{
+    "id": 2,
+    "name": "Hot Milk",
+    "description": "Hot Milk with less sugar",
+    "imagen": "https://johdasgran.github.io/cafe_street-landing/assets/images/products/hot_milk.png",
+    "rating": 4.8,
+    "price": 12
+},
+{
+    "id": 3,
+    "name": "Coffe Ice Cream",
+    "description": "Coffe with ice cream vanilla",
+    "imagen": "https://johdasgran.github.io/cafe_street-landing/assets/images/products/coffe_ice_cream.png",
+    "rating": 4.8,
+    "price": 12
+},
+{
+    "id": 4,
+    "name": "Cappucino",
+    "description": "Hot Cappucino",
+    "imagen": "https://johdasgran.github.io/cafe_street-landing/assets/images/products/cappucino.png",
+    "rating": 4.8,
+    "price": 12
+},
+{
+    "id": 5,
+    "name": "Moccacinno",
+    "description": "Hot Moccacino",
+    "imagen": "https://johdasgran.github.io/cafe_street-landing/assets/images/products/moccacinno.png",
+    "rating": 4.8,
+    "price": 12
+},
+{
+    "id": 6,
+    "name": "Waffle Ice Crem",
+    "description": "Wafle with Ice cream",
+    "imagen": "https://johdasgran.github.io/cafe_street-landing/assets/images/products/waffle_ice_cream.png",
+    "rating": 4.8,
+    "price": 12
+}]
