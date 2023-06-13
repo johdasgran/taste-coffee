@@ -9,5 +9,7 @@ var app = angular.module("app", ["ngRoute"])
             controller: "productCtrl",
             templateUrl: "./src/app/views/product.html"
         })
-        .otherwise("/catalog")
+        .otherwise("/catalog");
+
+        // $locationProvider.html5Mode(true);
 })

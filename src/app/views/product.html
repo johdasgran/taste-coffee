@@ -5,19 +5,34 @@
 
         <div class="section__hero--left">
             
-            <h1>Enjoy your <span>coffee</span> before your activity</h1>
+            <h1>Enjoy your <span>{{ product.name }}</span> before your activity</h1>
             <p>Boost your productivity and build your mood with a glass of coffee in the morning.</p>
 
             <div class="section__hero--left-buttons">
                 <a class="btn__primary" href="">Order now</a>
-                <a class="btn__secondary" href="">More menu</a>
+                <a class="btn__secondary" href="#/">More menu</a>
             </div>
 
         </div>
 
         
         <div class="section__hero--right">
-            <img src="./assets/images/img-hero.png" alt="It's good Cappuccino ☕️">
+
+            <img ng-src="{{product.imagen}}" alt="{{product.imagen}}">
+            <!-- <img src="https://johdasgran.github.io/cafe_street-landing/assets/images/img-hero.png" alt="It's good Cappuccino ☕️"> -->
+       
+            <div class="section__hero--img-score">
+                <span>{{product.rating}} ⭐</span>
+            </div>
+
+            <div class="section__hero--img-price">
+                <span>{{product.price}} K</span>
+            </div>
+
+            <div class="section__hero--img-name">
+                <span>{{product.name}}</span>
+            </div> 
+       
         </div>
 
 
